@@ -29,6 +29,17 @@ def delete_task(index):
     else:
         print("Invalid task number.")
 
+def search_task(keyword):
+    found = False
+
+    for task in tasks:
+        if keyword.lower() in task["task"].lower():
+            print(task["task"])
+            found = True
+
+    if not found:
+        print("No matching tasks found.")
+
 def main():
     while True:
         print("\nStudent Task Manager")
