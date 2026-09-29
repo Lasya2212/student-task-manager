@@ -23,8 +23,8 @@ def display_task_summary(tasks):
     completed = count_completed(tasks)
     pending = count_pending(tasks)
 
-    print("\nTask Summary")
-    print("------------")
+    print("\nTask Summary Report")
+    print("-------------------")
     print(f"Total Tasks: {total}")
     print(f"Completed Tasks: {completed}")
     print(f"Pending Tasks: {pending}")
