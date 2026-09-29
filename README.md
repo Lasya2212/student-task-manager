@@ -15,3 +15,6 @@ A simple task management application developed as part of a Software Engineering
 - Git
 - GitHub
 
+## Project Status
+
+Under active development.
