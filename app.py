@@ -22,6 +22,12 @@ def complete_task(index):
     else:
         print("Invalid task number.")
 
+def delete_task(index):
+    if 0 <= index < len(tasks):
+        tasks.pop(index)
+        print("Task deleted.")
+    else:
+        print("Invalid task number.")
 
 def main():
     while True:
