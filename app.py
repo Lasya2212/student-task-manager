@@ -22,12 +22,14 @@ def complete_task(index):
     else:
         print("Invalid task number.")
 
+
 def delete_task(index):
     if 0 <= index < len(tasks):
         tasks.pop(index)
         print("Task deleted.")
     else:
         print("Invalid task number.")
+
 
 def search_task(keyword):
     found = False
@@ -40,14 +42,14 @@ def search_task(keyword):
     if not found:
         print("No matching tasks found.")
 
+
 def main():
     while True:
         print("\nStudent Task Manager")
         print("1. Add Task")
         print("2. View Tasks")
         print("3. Complete Task")
-        print("4. Quit Application.")
-
+        print("4. Exit Application.")
         choice = input("Enter your choice: ")
 
         if choice == "1":
