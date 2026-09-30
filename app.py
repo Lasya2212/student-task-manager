@@ -46,7 +46,7 @@ def main():
         print("1. Add Task")
         print("2. View Tasks")
         print("3. Complete Task")
-        print("4. Exit Application.")
+        print("4. Quit Application.")
 
         choice = input("Enter your choice: ")
 
