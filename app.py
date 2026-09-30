@@ -46,7 +46,9 @@ def main():
         print("1. Add Task")
         print("2. View Tasks")
         print("3. Complete Task")
-        print("4. Exit Application.")
+        print("4. Delete Task")
+        print("5. Search Task")
+        print("6. Exit Application.")
 
         choice = input("Enter your choice: ")
 
@@ -64,12 +66,17 @@ def main():
             complete_task(number - 1)
 
         elif choice == "4":
+            view_tasks()
+            number = int(input("Enter task number to delete: "))
+            delete_task(number - 1)
+
+        elif choice == "5":
+            keyword = input("Enter keyword to search: ")
+            search_task(keyword)
+
+        elif choice == "6":
             print("Goodbye!")
             break
 
         else:
             print("Invalid choice.")
-
-
-if __name__ == "__main__":
-    main()
