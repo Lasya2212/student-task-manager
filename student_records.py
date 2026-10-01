@@ -45,6 +45,7 @@ def count_students():
 
 
 def main():
+    print("\n=== Student Management System ===")
     while True:
         print("\nStudent Records")
         print("1. Add Student")
