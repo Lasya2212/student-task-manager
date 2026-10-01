@@ -73,7 +73,7 @@ def main():
             count_students()
 
         elif choice == "5":
-            print("Exiting Student Records.")
+            print("Exiting Student Records.Goodbye")
             break
 
         else:
