@@ -29,6 +29,9 @@ def view_students():
 
 
 def search_student(roll_no):
+    if not roll_no.strip():
+	print("Roll numbercannot be empty.")
+	return
     for student in students:
         if student["roll_no"] == roll_no:
             print("\nStudent Found")
