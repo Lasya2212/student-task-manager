@@ -9,7 +9,7 @@ def add_student(name, roll_no, department):
     }
 
     students.append(student)
-    print("Student record added successfully.")
+    print("Student record added successfully.C-1")
 
 
 def view_students():
