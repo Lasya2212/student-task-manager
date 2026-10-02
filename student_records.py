@@ -9,8 +9,7 @@ def add_student(name, roll_no, department):
     }
 
     students.append(student)
-    print("Student record added successfully.C-1")
-
+    print("Student record added successfully - Conflict Resolved.")
 
 def view_students():
     if not students:
